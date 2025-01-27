@@ -1,0 +1,101 @@
+
+### 1. **Introduction to SQL**
+   - What is SQL?
+   - History of SQL
+   - SQL vs NoSQL Databases
+   - SQL Engines (MySQL, PostgreSQL, SQLite, etc.)
+
+### 2. **Basic SQL Syntax**
+   - SQL Keywords
+   - SQL Statements (SELECT, INSERT, UPDATE, DELETE)
+   - Semicolons in SQL
+
+### 3. **SQL Data Types**
+   - Numeric Types (INT, DECIMAL, FLOAT)
+   - String Types (VARCHAR, CHAR, TEXT)
+   - Date and Time Types (DATE, TIME, DATETIME, TIMESTAMP)
+   - Boolean Types
+
+### 4. **Basic Queries**
+   - SELECT Statement
+   - Filtering Results (WHERE clause)
+   - Sorting Results (ORDER BY)
+   - Limiting Results (LIMIT, TOP)
+   - Column Aliases (AS)
+   
+### 5. **Aggregate Functions**
+   - COUNT, SUM, AVG, MIN, MAX
+   - GROUP BY Clause
+   - HAVING Clause (Filtering after GROUP BY)
+
+### 6. **Joins**
+   - INNER JOIN
+   - LEFT JOIN (LEFT OUTER JOIN)
+   - RIGHT JOIN (RIGHT OUTER JOIN)
+   - FULL JOIN (FULL OUTER JOIN)
+   - CROSS JOIN
+   - SELF JOIN
+
+### 7. **Subqueries**
+   - Subquery in SELECT
+   - Subquery in WHERE
+   - Subquery in FROM
+   - Correlated vs Non-correlated Subqueries
+
+### 8. **Data Modification**
+   - INSERT INTO (Adding data)
+   - UPDATE (Modifying data)
+   - DELETE (Removing data)
+   - MERGE (UPSERT)
+
+### 9. **Data Definition Language (DDL)**
+   - CREATE DATABASE
+   - CREATE TABLE
+     - Columns and Constraints
+     - Primary Key, Foreign Key, Unique, Not Null
+     - Default values
+   - ALTER TABLE
+     - Add, Modify, Drop Columns
+   - DROP DATABASE / DROP TABLE
+   - TRUNCATE TABLE (Difference from DELETE)
+
+### 10. **Data Integrity**
+   - Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK)
+   - Referential Integrity
+   - Cascading Deletes/Updates
+
+### 11. **Indexes**
+   - What are Indexes?
+   - Creating Indexes
+   - Types of Indexes (Unique, Composite)
+   - Performance Considerations
+
+### 12. **Transactions**
+   - What is a Transaction?
+   - COMMIT and ROLLBACK
+   - SAVEPOINT
+   - ACID Properties (Atomicity, Consistency, Isolation, Durability)
+
+### 13. **Views**
+   - What are Views?
+   - Creating Views
+   - Using Views in Queries
+   - Updatable vs Non-updatable Views
+
+### 14. **Stored Procedures and Functions**
+   - What is a Stored Procedure?
+   - Creating Stored Procedures
+   - Input and Output Parameters
+   - Using Functions in SQL
+
+### 15. **Triggers**
+   - What are Triggers?
+   - Creating Triggers
+   - Types of Triggers (BEFORE, AFTER, INSTEAD OF)
+
+### 16. **Normalization and Denormalization**
+   - What is Normalization?
+   - First, Second, and Third Normal Forms (1NF, 2NF, 3NF)
+   - Boyce-Codd Normal Form (BCNF)
+   - Denormalization
+

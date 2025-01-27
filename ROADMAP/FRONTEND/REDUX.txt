@@ -1,0 +1,51 @@
+
+### 1. **Introduction to Redux**
+   - What is Redux?
+   - Why use Redux with React?
+   - Key Principles of Redux:
+     - **Single Source of Truth**
+     - **State is Read-Only**
+     - **Changes are Made with Pure Functions**
+
+### 2. **Setting Up Redux in a React Project**
+   - Installing Redux and React-Redux
+   - Creating the Redux Store
+   - Setting up `Provider` to connect Redux with React
+
+### 3. **Core Concepts of Redux**
+   - **Actions**: What are actions and how to define them?
+   - **Reducers**: Writing reducer functions
+   - **Store**: What is the Redux store and how to create it?
+   - **Dispatching Actions**: How to dispatch actions to the store
+
+### 4. **Working with Actions**
+   - Action Types: Defining constants for action types
+   - Action Creators: Writing functions to return actions
+   - Dispatching Actions: How to dispatch actions from React components
+
+### 5. **Working with Reducers**
+   - Writing Reducer Functions to handle state updates
+   - Handling Multiple Actions in Reducers
+   - Using `combineReducers` to manage multiple reducers
+
+### 6. **Connecting Redux with React**
+   - Using `react-redux` library
+   - `connect()` function: Mapping Redux state and dispatch to React component props
+   - `useSelector()` hook: Accessing state in functional components
+   - `useDispatch()` hook: Dispatching actions in functional components
+
+### 7. **Basic State Management**
+   - Storing simple data in Redux (e.g., strings, numbers, booleans)
+   - Updating state in response to actions (e.g., changing text, toggling visibility)
+   - Handling simple interactions like button clicks with Redux
+
+### 8. **Redux DevTools**
+   - Installing Redux DevTools extension
+   - Inspecting actions and state changes using DevTools
+   - Time Travel Debugging with DevTools
+
+### 9. **Handling Asynchronous Actions**
+   - Introduction to Asynchronous Actions in Redux
+   - Using Redux Thunk for async actions (e.g., API calls)
+   - Dispatching multiple actions in response to async events
+

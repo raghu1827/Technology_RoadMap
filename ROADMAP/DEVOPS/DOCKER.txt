@@ -1,0 +1,114 @@
+
+### **1. Introduction to Docker**  
+   - What is Docker?  
+   - Containers vs Virtual Machines  
+   - Benefits of Docker in Development and Operations  
+   - Key Docker Terminology:  
+     - Containers  
+     - Images  
+     - Dockerfile  
+     - Docker Hub  
+
+### **2. Setting Up Docker**  
+   - Installing Docker on:  
+     - Linux  
+     - Windows  
+     - macOS  
+   - Docker Desktop Overview  
+   - Verifying Installation:  
+     - `docker --version`  
+     - `docker info`  
+   - Introduction to Docker CLI  
+
+### **3. Working with Docker Containers**  
+   - Running Containers:  
+     - Your First Container (`docker run`)  
+     - Running Containers in Detached Mode (`-d`)  
+   - Managing Containers:  
+     - Starting, Stopping, and Restarting Containers (`docker start`, `docker stop`, `docker restart`)  
+     - Removing Containers (`docker rm`)  
+   - Viewing Containers:  
+     - Running Containers (`docker ps`)  
+     - All Containers (`docker ps -a`)  
+   - Interacting with Containers:  
+     - Executing Commands (`docker exec`)  
+     - Accessing Shell (`docker attach`)  
+
+### **4. Working with Docker Images**  
+   - What are Docker Images?  
+   - Pulling Images from Docker Hub (`docker pull`)  
+   - Listing Images (`docker images`)  
+   - Removing Images (`docker rmi`)  
+   - Building Images from Dockerfile (`docker build`)  
+   - Tagging Images (`docker tag`)  
+   - Image Layers and Caching  
+
+### **5. Dockerfile Basics**  
+   - Writing Your First Dockerfile  
+   - Common Dockerfile Commands:  
+     - `FROM`  
+     - `RUN`  
+     - `COPY`  
+     - `CMD`  
+     - `ENTRYPOINT`  
+     - `EXPOSE`  
+     - `WORKDIR`  
+   - Best Practices for Writing Dockerfiles  
+
+### **6. Docker Networking**  
+   - Docker Network Basics  
+   - Default Network Modes:  
+     - Bridge  
+     - Host  
+     - None  
+   - Creating Custom Networks (`docker network create`)  
+   - Connecting Containers to Networks (`docker network connect`)  
+   - Inspecting Networks (`docker network inspect`)  
+
+### **7. Docker Volumes and Data Persistence**  
+   - What are Docker Volumes?  
+   - Creating and Using Volumes (`docker volume create`, `docker run -v`)  
+   - Bind Mounts vs Named Volumes  
+   - Sharing Data Between Containers  
+   - Managing Volumes:  
+     - Listing Volumes (`docker volume ls`)  
+     - Removing Volumes (`docker volume rm`)  
+
+### **8. Docker Compose**  
+   - Introduction to Docker Compose  
+   - Writing a Basic `docker-compose.yml` File  
+   - Running Multi-Container Applications (`docker-compose up`)  
+   - Stopping and Removing Applications (`docker-compose down`)  
+   - Scaling Services (`docker-compose scale`)  
+   - Networking with Docker Compose  
+   - Using Environment Variables in Compose  
+
+### **9. Docker Registries**  
+   - Introduction to Docker Registries  
+   - Docker Hub Overview  
+   - Authenticating to Docker Hub  
+   - Pushing Images to Docker Hub (`docker push`)  
+   - Pulling Images from Docker Hub (`docker pull`)  
+   - Setting Up Private Docker Registries  
+
+### **10. Debugging and Monitoring in Docker**  
+   - Viewing Container Logs (`docker logs`)  
+   - Inspecting Containers (`docker inspect`)  
+   - Monitoring Container Performance (`docker stats`)  
+   - Docker Events (`docker events`)  
+   - Debugging a Running Container  
+
+### **11. Docker Swarm (Orchestration)**  
+   - What is Docker Swarm?  
+   - Setting Up a Swarm Cluster (`docker swarm init`, `docker swarm join`)  
+   - Deploying Services (`docker service create`)  
+   - Scaling Services in Swarm (`docker service scale`)  
+   - Networking in Swarm  
+   - Managing Secrets and Configurations in Swarm  
+
+### **12. CI/CD with Docker**  
+   - Using Docker in Continuous Integration:  
+     - Building Docker Images in Jenkins or GitLab CI  
+   - Running Tests in Containers  
+   - Deploying Docker Containers in Continuous Deployment Pipelines  
+

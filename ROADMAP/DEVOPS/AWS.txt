@@ -1,0 +1,67 @@
+
+#### 1. **Introduction to Cloud Computing**
+   - What is Cloud Computing?
+   - Benefits of Cloud Computing
+   - Types of Cloud: Public, Private, Hybrid
+   - Cloud Service Models: IaaS, PaaS, SaaS
+
+#### 2. **Getting Started with AWS**
+   - Introduction to AWS Console
+   - Setting up an AWS Account
+   - Navigating AWS Management Console
+   - IAM (Identity and Access Management) Basics
+   - Understanding IAM Users, Groups, and Roles
+   - Multi-Factor Authentication (MFA)
+   - Managing Permissions with Policies
+
+#### 3. **Core AWS Services**
+   - **EC2 (Elastic Compute Cloud)**
+     - Launching an EC2 Instance
+     - EC2 Instance Types
+     - Key Pairs, Security Groups, SSH Access
+   - **S3 (Simple Storage Service)**
+     - Creating and Managing S3 Buckets
+     - Uploading and Managing Files
+     - Bucket Permissions
+   - **VPC (Virtual Private Cloud)**
+     - Overview of VPC and Subnets
+     - Configuring Route Tables and Gateways
+     - Security Groups and Network ACLs
+     - Public and Private IPs
+   - **RDS (Relational Database Service)**
+     - Setting up RDS Databases (MySQL, PostgreSQL)
+     - Backups and Snapshots
+   - **Elastic Load Balancer (ELB)**
+     - Setting up Load Balancer for Scaling
+   - **CloudWatch**
+     - Setting up Alarms and Monitoring
+     - Using Logs for Diagnostics
+
+#### 4. **Security in AWS**
+   - Best Security Practices in AWS
+   - Configuring IAM Users and Roles
+   - Managing Permissions with Policies
+   - Using AWS KMS for Encryption
+
+#### 5. **Automation with AWS**
+   - AWS CLI (Command Line Interface) Basics
+   - Automating Tasks with AWS CLI
+   - Using AWS CloudFormation for Infrastructure as Code
+
+#### 6. **Networking in AWS**
+   - VPC Setup and Subnets
+   - Security Groups and Network ACLs
+   - Elastic IP and NAT Gateway
+   - Route 53 (DNS Service)
+
+#### 7. **Serverless with AWS**
+   - Introduction to AWS Lambda
+   - Using API Gateway for Serverless APIs
+   - AWS Step Functions
+
+#### 8. **AWS Monitoring and Billing**
+   - AWS CloudWatch
+   - AWS Billing and Cost Management
+   - Understanding AWS Free Tier
+   - Setting up Billing Alerts
+

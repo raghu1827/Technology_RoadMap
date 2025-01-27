@@ -1,0 +1,206 @@
+
+### **1. DSA: Overview, Complexity, and Big O Notation**
+   - **Introduction to DSA**
+     - What is Data Structure?
+     - What is an Algorithm?
+     - Importance of DSA (Time and Space Efficiency)
+
+   - **Complexity in DSA**
+     - Time Complexity
+     - Space Complexity
+     - Types of Complexity:
+       - Best Case
+       - Worst Case
+       - Average Case
+
+   - **Big O Notation**
+     - O(1): Constant Time
+     - O(log n): Logarithmic Time
+     - O(n): Linear Time
+     - O(n log n): Linearithmic Time
+     - O(n²): Quadratic Time
+     - O(2ⁿ): Exponential Time
+     - O(n!): Factorial Time
+
+### **2. Arrays & Strings**
+   - **Introduction to Arrays**
+     - What is an array?
+     - Array representation in memory (contiguous block)
+     - Types of arrays (1D, 2D, multi-dimensional)
+
+   - **Array Operations**
+     - Insertion, Deletion, Accessing Elements
+     - Searching (Linear and Binary Search)
+     - Sorting (Bubble Sort, Selection Sort, Insertion Sort)
+
+   - **Advanced Array Techniques**
+     - Two-pointer technique
+     - Sliding window technique
+     - Array Rotation
+     - Merge Arrays
+
+   - **Introduction to Strings**
+     - String representation in memory (null-terminated, immutable vs mutable)
+     - String operations (concatenation, comparison, length, substring)
+
+   - **String Searching Algorithms**
+     - Naive Pattern Matching
+     - Knuth-Morris-Pratt (KMP) Algorithm
+     - Rabin-Karp Algorithm
+
+### **3. Searching Algorithms**
+   - **Linear Search**
+   - **Binary Search**
+   - **Jump Search**
+   - **Exponential Search**
+   - **Ternary Search**
+
+### **4. Sorting Algorithms**
+   - **Simple Sorting Algorithms**
+     - Bubble Sort
+     - Selection Sort
+     - Insertion Sort
+
+   - **Efficient Sorting Algorithms**
+     - Merge Sort (Divide and Conquer)
+     - Quick Sort (Divide and Conquer)
+     - Heap Sort
+
+   - **Non-Comparison Based Sorts**
+     - Counting Sort
+     - Radix Sort
+     - Bucket Sort
+
+### **5. Stack and Queue**
+   - **Introduction to Stack**
+     - Stack Operations (Push, Pop, Peek)
+     - Stack implementation using Array and Linked List
+
+   - **Applications of Stack**
+     - Infix, Prefix, and Postfix Notation
+     - Balanced Parentheses Check
+     - Function Call Stack (Recursion)
+     - Undo/Redo functionality
+
+   - **Introduction to Queue**
+     - Queue Operations (Enqueue, Dequeue, Peek)
+     - Types of Queues (Linear Queue, Circular Queue, Priority Queue)
+     - Queue Implementation using Arrays and Linked Lists
+
+   - **Applications of Queue**
+     - Breadth-First Search (BFS)
+     - Job Scheduling
+     - Round Robin Scheduling
+
+### **6. Linked List**
+   - **Introduction to Linked Lists**
+     - Singly Linked List
+     - Doubly Linked List
+     - Circular Linked List
+
+   - **Linked List Operations**
+     - Insertion, Deletion, Traversal, Search
+     - Reverse a Linked List
+     - Detecting a cycle in Linked List (Floyd’s Cycle-Finding Algorithm)
+
+   - **Advanced Topics**
+     - Merge Two Sorted Linked Lists
+     - Middle of a Linked List
+     - Remove N-th node from end of Linked List
+
+### **7. Tree Data Structures**
+   - **Introduction to Trees**
+     - Basic Tree Terminology (Node, Root, Child, Parent, Leaf, Height, Depth)
+
+   - **Types of Trees**
+     - Binary Tree, Binary Search Tree (BST)
+     - AVL Tree, Red-Black Tree
+     - Heap (Min-Heap, Max-Heap)
+     - Trie
+     - Segment Tree
+
+   - **Tree Traversals**
+     - Preorder, Inorder, Postorder
+     - Level Order Traversal (BFS)
+
+   - **Operations on Trees**
+     - Insertion, Deletion, Searching
+     - Balancing Trees (AVL, Red-Black)
+     - Lowest Common Ancestor (LCA)
+
+### **8. Graph Data Structures**
+   - **Introduction to Graphs**
+     - Representation (Adjacency Matrix, Adjacency List)
+     - Directed vs Undirected Graphs
+     - Weighted vs Unweighted Graphs
+
+   - **Graph Traversal**
+     - Depth-First Search (DFS)
+     - Breadth-First Search (BFS)
+
+   - **Graph Algorithms**
+     - Dijkstra’s Shortest Path Algorithm
+     - Bellman-Ford Algorithm
+     - Floyd-Warshall Algorithm
+     - Topological Sorting
+     - Kruskal’s and Prim’s Algorithms (Minimum Spanning Tree)
+
+### **9. Divide and Conquer Algorithms**
+   - **Introduction to Divide and Conquer**
+     - Concept and Approach
+
+   - **Common Divide and Conquer Algorithms**
+     - Merge Sort
+     - Quick Sort
+     - Binary Search
+     - Matrix Multiplication
+     - Closest Pair of Points
+
+### **10. Greedy Methodology**
+   - **Introduction to Greedy Algorithms**
+     - Greedy Choice Property
+     - Optimal Substructure
+
+   - **Greedy Problems**
+     - Activity Selection Problem
+     - Fractional Knapsack Problem
+     - Huffman Coding
+     - Job Sequencing Problem
+
+### **11. Recursion & Backtracking**
+   - **Understanding Recursion**
+     - Base Case, Recursive Case
+     - Stack Overflow Issues
+
+   - **Common Recursion Problems**
+     - Factorial, Fibonacci Sequence
+     - Tower of Hanoi
+     - Permutations and Combinations
+
+   - **Introduction to Backtracking**
+     - Backtracking Principle
+     - When to use Backtracking
+
+   - **Backtracking Problems**
+     - N-Queens Problem
+     - Rat in a Maze
+     - Subset Sum Problem
+     - Sudoku Solver
+
+### **12. Dynamic Programming (DP)**
+   - **Introduction to DP**
+     - Optimal Substructure and Overlapping Subproblems
+     - Memoization vs Tabulation
+
+   - **Basic DP Problems**
+     - Fibonacci Sequence (Memoization)
+     - Knapsack Problem (0/1 Knapsack, Fractional Knapsack)
+     - Longest Common Subsequence (LCS)
+     - Longest Increasing Subsequence (LIS)
+
+   - **Advanced DP Problems**
+     - Matrix Chain Multiplication
+     - Rod Cutting Problem
+     - Coin Change Problem
+     - Edit Distance Problem
+

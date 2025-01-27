@@ -1,0 +1,74 @@
+
+### 1. **Introduction to TypeScript**
+   - What is TypeScript?
+   - Why use TypeScript over JavaScript?
+   - Installing TypeScript
+   - Setting up TypeScript in a project (tsconfig.json)
+   - TypeScript Compiler (tsc) and Command Line Usage
+
+### 2. **Basic Types in TypeScript**
+   - Primitive Types: `number`, `string`, `boolean`, `null`, `undefined`
+   - Arrays and Tuples
+   - Enum Types
+   - Any and Unknown Types
+   - Void and Never Types
+
+### 3. **Variables and Constants**
+   - Declaring Variables: `let`, `const`, `var`
+   - Type Inference
+   - Type Aliases
+   - Constant Arrays and Objects
+
+### 4. **Functions in TypeScript**
+   - Function Declarations
+   - Function Parameters (optional, default, and rest parameters)
+   - Function Return Types
+   - Arrow Functions
+   - Function Overloading
+
+### 5. **Objects and Interfaces**
+   - Object Types in TypeScript
+   - Declaring Interfaces
+   - Optional and Readonly Properties in Interfaces
+   - Index Signatures
+   - Extending Interfaces
+
+### 6. **Classes and Inheritance**
+   - Defining Classes in TypeScript
+   - Constructor Functions
+   - Public, Private, and Protected Modifiers
+   - Inheritance and Method Overriding
+   - Abstract Classes
+   - Getters and Setters
+
+### 7. **Type Assertions and Type Guards**
+   - Type Assertions (using `as` and `<>`)
+   - Type Guards (`typeof`, `instanceof`, custom guards)
+   - Literal Types
+
+### 8. **Generics**
+   - Introduction to Generics
+   - Generic Functions
+   - Generic Classes
+   - Generic Interfaces
+   - Constraints in Generics
+
+### 9. **Modules and Namespaces**
+   - ES Modules in TypeScript
+   - Importing and Exporting Modules
+   - Default and Named Exports
+   - Namespaces and their Use Cases
+
+### 10. **Advanced Type Features**
+   - Union Types
+   - Intersection Types
+   - Type Aliases and Type Unions
+   - Literal Types and String Literal Types
+   - Conditional Types
+   - Mapped Types
+   - Utility Types (`Partial`, `Readonly`, `Record`, `Pick`, `Exclude`, `Extract`, `NonNullable`)
+
+### 11. **Error Handling and Debugging**
+   - Using `try`, `catch`, `finally`
+   - Throwing Errors
+   - Debugging TypeScript Code

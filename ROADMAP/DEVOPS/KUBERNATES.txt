@@ -1,0 +1,123 @@
+
+### 1. **Introduction to Kubernetes**
+   - What is Kubernetes?
+   - Benefits of Kubernetes
+   - Kubernetes vs Docker Swarm
+   - Core Concepts: Cluster, Nodes, Pods, and Services
+   - Kubernetes Architecture: Master Node vs Worker Nodes
+
+### 2. **Kubernetes Components**
+   - **Master Node Components**:
+     - API Server
+     - Controller Manager
+     - Scheduler
+     - etcd (Key-Value Store)
+   - **Worker Node Components**:
+     - Kubelet
+     - Kube Proxy
+     - Container Runtime (Docker, containerd)
+   - Cluster Networking (CNI)
+
+### 3. **Kubernetes Objects**
+   - **Pods**:
+     - Single vs Multi-container Pods
+     - Pod Lifecycle
+     - Pod Scheduling
+   - **ReplicaSets**:
+     - Ensuring Pod Availability
+     - Horizontal Pod Autoscaling
+   - **Deployments**:
+     - Rolling Updates
+     - Rollbacks
+   - **Namespaces**:
+     - Isolating Environments
+   - **ConfigMaps & Secrets**:
+     - Storing Configuration Data
+     - Managing Sensitive Information
+   - **StatefulSets**:
+     - Stateful Applications
+     - Persistent Storage
+   - **DaemonSets**:
+     - Running Pods on Every Node
+   - **Jobs & CronJobs**:
+     - One-time and Scheduled Tasks
+
+### 4. **Networking in Kubernetes**
+   - Cluster Networking: Internal and External Communication
+   - **Services**:
+     - ClusterIP (Internal Access)
+     - NodePort (Access from Outside the Cluster)
+     - LoadBalancer (Cloud-based Load Balancer)
+     - Headless Services (DNS-based)
+   - **Ingress Controller**:
+     - Managing External Access to Services
+   - **Network Policies**:
+     - Controlling Pod Communication
+
+### 5. **Storage in Kubernetes**
+   - **Volumes**:
+     - Persistent Volumes (PV) and Persistent Volume Claims (PVC)
+     - Ephemeral Volumes (emptyDir, configMap, secret)
+   - **Storage Classes**:
+     - Dynamic Volume Provisioning
+   - **StatefulSets and Volumes**:
+     - Stateful Applications with Persistent Data
+
+### 6. **Scaling and Load Balancing**
+   - **Horizontal Pod Autoscaler**:
+     - Automatically Scaling Pods based on CPU/Memory usage
+   - **Vertical Pod Autoscaler**:
+     - Adjusting Resources for a Pod
+   - **Cluster Autoscaler**:
+     - Scaling Worker Nodes in the Cluster
+   - **Load Balancing**:
+     - Using Services and Ingress Controllers
+
+### 7. **Kubernetes Security**
+   - **RBAC (Role-Based Access Control)**:
+     - Managing Permissions and Access Control
+   - **Service Accounts**:
+     - Assigning Roles to Pods
+   - **Network Policies**:
+     - Securing Communication Between Pods
+   - **Pod Security Policies**:
+     - Enforcing Security Standards on Pods
+   - **Secrets Management**:
+     - Storing and Accessing Sensitive Data
+   - **Security Context**:
+     - Specifying Security Parameters for Pods
+
+### 8. **Monitoring and Logging**
+   - **Prometheus and Grafana**:
+     - Monitoring Kubernetes Metrics
+   - **ELK Stack (Elasticsearch, Logstash, Kibana)**:
+     - Centralized Logging Solution
+   - **Fluentd**:
+     - Log Collection and Forwarding
+   - **Kubernetes Dashboard**:
+     - Web UI for Cluster Management
+   - **Alerting**:
+     - Configuring Alerts for Resources
+
+### 9. **Kubernetes and CI/CD**
+   - **Continuous Deployment**:
+     - Integrating Kubernetes with Jenkins, GitLab CI, or other tools
+   - **Helm**:
+     - Helm Charts for Application Deployment and Management
+   - **Kubectl**:
+     - Command-line Interface for Managing Kubernetes Resources
+   - **Kustomize**:
+     - Managing Kubernetes Resources using Overlays
+
+### 10. **Kubernetes Advanced Topics**
+   - **Helm Charts**:
+     - Packaging Kubernetes Applications for Easy Deployment
+   - **Service Mesh** (e.g., Istio, Linkerd):
+     - Managing Microservices Communication
+   - **Kubernetes Operators**:
+     - Extending Kubernetes to Manage Stateful Applications
+   - **Federation**:
+     - Managing Multi-Cluster Kubernetes Environments
+   - **Kubernetes Custom Resources**:
+     - Extending Kubernetes API with Custom Objects
+
