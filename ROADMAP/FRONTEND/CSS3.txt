@@ -1,0 +1,114 @@
+
+#### **1. CSS Basics**  
+- What is CSS?  
+- Inline, Internal & External CSS  
+- CSS Syntax (Selectors, Properties & Values)  
+- Understanding the Cascade & Specificity  
+
+#### **2. Selectors**  
+- **Basic Selectors** (`*`, `tag`, `#id`, `.class`)  
+- **Attribute Selectors** (`[attribute]`, `[attribute="value"]`)  
+- **Combinators:**  
+  - Child Combinator (`>`) – Selects direct children  
+  - Descendant Combinator – Selects nested elements  
+  - Adjacent Sibling Selector (`+`)  
+  - General Sibling Selector (`~`)  
+- **Pseudo-classes** (`:hover`, `:focus`, `:nth-child()`)  
+- **Pseudo-elements** (`::before`, `::after`)  
+
+#### **3. Box Model**  
+- Content, Padding, Border & Margin  
+- Border-box vs. Content-box Models  
+- Box Sizing  
+- Overflow (`visible`, `hidden`, `scroll`, `auto`)  
+
+#### **4. Text Styling**  
+- Font Properties (`font-family`, `font-weight`, `font-style`, `line-height`)  
+- Text Alignment & Decoration (`text-align`, `text-decoration`)  
+- Word Spacing, Letter Spacing, Text Transform  
+
+#### **5. Colors and Backgrounds**  
+- Color Values (Hex, RGB, RGBA, HSL, HSLA)  
+- Background Properties (`background-color`, `background-image`, `background-position`, `background-size`, `background-repeat`)  
+- Linear & Radial Gradients  
+
+#### **6. Display and Visibility**  
+- Display Values (`block`, `inline`, `inline-block`, `none`)  
+- Visibility (`visible`, `hidden`)  
+- Floating Elements (`float`, `clear`)  
+
+#### **7. Positioning**  
+- `static`, `relative`, `absolute`, `fixed`, `sticky` positioning  
+- `z-index`  
+- Understanding Stacking Context & Overlapping  
+
+#### **8. Flexbox**  
+- **Flex Container & Flex Items**  
+- **Flex Properties:**  
+  - `justify-content`  
+  - `align-items`  
+  - `flex-direction`  
+  - `flex-wrap`  
+  - `flex-shrink`  
+- Flexbox Alignment, Ordering & Spacing  
+
+#### **9. CSS Grid Layout**  
+- Defining Grid Containers (`display: grid`)  
+- Grid Template Rows & Columns (`grid-template-rows`, `grid-template-columns`)  
+- Aligning Items in Grids (`grid-auto-flow`, `align-items`, `align-content`)  
+
+#### **10. Transforms**  
+- **2D Transformations** (`transform: rotate()`, `scale()`, `translate()`, `skew()`)  
+- **3D Transformations** (`rotateX()`, `rotateY()`, `perspective()`)  
+- Transform Origin & Combining Transformations  
+
+#### **11. Transitions & Animations**  
+- **CSS Transitions:**  
+  - `transition-property`  
+  - `transition-duration`  
+  - `transition-timing-function`  
+- **CSS Animations:**  
+  - `@keyframes`  
+  - `animation-name`, `animation-duration`  
+  - `animation-timing-function`, `animation-iteration-count`  
+  - Delays and Advanced Timing Functions  
+
+#### **12. Media Queries & Responsive Design**  
+- Media Query Syntax (`@media`)  
+- Breakpoints and Screen Sizes  
+- Mobile-first vs. Desktop-first Design  
+- Responsive Layouts using Flexbox & Grid  
+- Viewport Units (`vw`, `vh`, `vmin`, `vmax`)  
+
+#### **13. CSS Variables (Custom Properties)**  
+- Declaring Variables (`--variable-name`)  
+- Using Variables (`var(--variable-name)`)  
+- Scoping and Inheriting Variables  
+
+#### **14. Units & Measurements**  
+- **Absolute Units:** `px`, `pt`, `cm`  
+- **Relative Units:** `%`, `em`, `rem`, `vw`, `vh`  
+- Calculations with CSS (`calc()`)  
+
+#### **15. Reusable Classes & Pseudo-elements**  
+- Advanced Pseudo-classes (`:not()`, `:nth-child()`, `:nth-of-type()`)  
+- Styling with Pseudo-elements (`::before`, `::after`)  
+
+#### **16. Shadows**  
+- Box Shadow (`box-shadow`)  
+- Text Shadow (`text-shadow`)  
+
+#### **17. Clipping & Masking**  
+- **Clipping with `clip-path`** (Complex Shapes)  
+- **Masking with Images** (`mask-image`, `mask-position`)  
+
+#### **18. Browser Support & Prefixing**  
+- Vendor Prefixes (`-webkit-`, `-moz-`, `-o-`, `-ms-`)  
+- Feature Detection with `@supports`  
+
+#### **19. Filters**  
+- Applying Filters (`filter` property)  
+- **Filter Types:**  
+  - `blur()`, `brightness()`, `contrast()`, `grayscale()`  
+  - `sepia()`, `hue-rotate()`, `invert()`, `drop-shadow()`, `opacity()`  
+- Combining Multiple Filters  
