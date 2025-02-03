@@ -1,94 +1,95 @@
 
 ### **1. HTML Basics**  
-- Introduction to HTML & HTML5  
-- `DOCTYPE` in HTML5  
-- Structure of an HTML document  
-  - `<head>`  
-  - `<body>`  
-- Elements & Tags  
-- Types of Elements  
+   - Introduction to HTML & HTML5  
+   - `DOCTYPE` in HTML5  
+   - Structure of an HTML document  
+     - `<head>`  
+     - `<body>`  
+   - Elements & Tags  
+   - Types of Elements  
 
 ### **2. Text Elements**  
-- Headings (`h1` to `h6`)  
-- Paragraphs (`<p>`)  
-- Line Break (`<br>`) & Horizontal Rule (`<hr>`)  
-- Formatting Elements (`<b>`, `<i>`, `<mark>`, `<del>`, `<ins>`, `<sup>`, `<sub>`)  
+   - Headings (`h1` to `h6`)  
+   - Paragraphs (`<p>`)  
+   - Line Break (`<br>`) & Horizontal Rule (`<hr>`)  
+   - Formatting Elements (`<b>`, `<i>`, `<mark>`, `<del>`, `<ins>`, `<sup>`, `<sub>`)  
 
 ### **3. Attributes & Global Attributes**  
-- Specific Attributes: `href`, `src`, `alt`, `type`  
-- Global Attributes: `class`, `id`, `style`, `title`, `data-*`, `tabindex`, `lang`  
+   - Specific Attributes: `href`, `src`, `alt`, `type`  
+   - Global Attributes: `class`, `id`, `style`, `title`, `data-*`, `tabindex`, `lang`  
 
 ### **4. Links and URLs**  
-- Creating Links (`<a>` tag)  
-- Absolute vs. Relative URLs  
-- Targeting Links (`_blank`, `_self`, etc.)  
+   - Creating Links (`<a>` tag)  
+   - Absolute vs. Relative URLs  
+   - Targeting Links (`_blank`, `_self`, etc.)  
 
 ### **5. Images and Media**  
-- Embedding Images (`<img>` tag) & Attributes (`src`, `alt`, `width`, `height`)  
-- Video and Audio Elements: `<video>`, `<audio>`, `<source>`  
-- Media Types, Autoplay, Controls, and Formats  
+   - Embedding Images (`<img>` tag) & Attributes (`src`, `alt`, `width`, `height`)  
+   - Video and Audio Elements: `<video>`, `<audio>`, `<source>`  
+   - Media Types, Autoplay, Controls, and Formats  
 
 ### **6. Lists**  
-- Unordered Lists (`<ul>`, `<li>`)  
-- Ordered Lists (`<ol>`, `<li>`)  
-- Definition Lists (`<dl>`, `<dt>`, `<dd>`)  
+   - Unordered Lists (`<ul>`, `<li>`)  
+   - Ordered Lists (`<ol>`, `<li>`)  
+   - Definition Lists (`<dl>`, `<dt>`, `<dd>`)  
 
 ### **7. Tables**  
-- Basic Table Structure: `<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tbody>`  
-- Table Attributes:  
-  - `border`, `cellpadding`, `cellspacing`  
-  - `colspan`, `rowspan`  
+   - Basic Table Structure: `<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tbody>`  
+   - Table Attributes:  
+     - `border`, `cellpadding`, `cellspacing`  
+     - `colspan`, `rowspan`  
 
 ### **8. Forms and Input Elements**  
-- Forms Basics: `<form>`, `action`, `method`  
-- Input Types:  
-  - `text`, `password`, `email`, `file`, `submit`, `radio`, `checkbox`, `date`, `number`, `range`, `tel`, `url`  
-- Labeling Form Elements (`<label>`)  
-- Textarea & Select Dropdown: `<textarea>`, `<select>`, `<option>`  
-- Form Input Validation:  
-  - Attributes: `required`, `pattern`, `min`, `max`  
-  - Providing Auto-suggestions  
+   - Forms Basics: `<form>`, `action`, `method`  
+   - Input Types:  
+     - `text`, `password`, `email`, `file`, `submit`, `radio`, `checkbox`, `date`, `number`, `range`, `tel`, `url`  
+   - Labeling Form Elements (`<label>`)  
+   - Textarea & Select Dropdown: `<textarea>`, `<select>`, `<option>`  
+   - Form Input Validation:  
+     - Attributes: `required`, `pattern`, `min`, `max`  
+     - Providing Auto-suggestions  
 
 ### **9. HTML5 Semantic Elements**  
-- Structuring Webpages using Semantic Tags:  
-  - `<header>`, `<footer>`, `<nav>`, `<section>`, `<article>`, `<aside>`, `<main>`  
-- Importance of Semantic Elements in Accessibility & SEO  
+   - Structuring Webpages using Semantic Tags:  
+     - `<header>`, `<footer>`, `<nav>`, `<section>`, `<article>`, `<aside>`, `<main>`  
+   - Importance of Semantic Elements in Accessibility & SEO  
 
 ### **10. Block and Inline Elements**  
-- Difference Between Block-level & Inline-level Elements  
-- Examples:  
-  - **Block-level:** `<div>`, `<p>`, `<table>`  
-  - **Inline-level:** `<span>`, `<img>`, `<a>`  
+   - Difference Between Block-level & Inline-level Elements  
+   - Examples:  
+     - **Block-level:** `<div>`, `<p>`, `<table>`  
+     - **Inline-level:** `<span>`, `<img>`, `<a>`  
 
 ### **11. Metadata & SEO**  
-- Meta Tags for Character Sets, Viewport, and SEO Optimization  
-- `<title>` Tag  
-- `<meta charset="UTF-8">`, `<meta name="viewport" content="width=device-width, initial-scale=1.0">`  
-- Role of Title & Meta Tags in SEO  
-- Adding a Favicon: `<link rel="icon" href="favicon.ico">`  
+   - Meta Tags for Character Sets, Viewport, and SEO Optimization  
+   - `<title>` Tag  
+   - `<meta charset="UTF-8">`, `<meta name="viewport" content="width=device-width, initial-scale=1.0">`  
+   - Role of Title & Meta Tags in SEO  
+   - Adding a Favicon: `<link rel="icon" href="favicon.ico">`  
 
 ### **12. Responsive Design & Media Queries**  
-- Usage of `<meta name="viewport">` for Responsive Design  
-- Introduction to CSS Media Queries for Responsive Layouts  
+   - Usage of `<meta name="viewport">` for Responsive Design  
+   - Introduction to CSS Media Queries for Responsive Layouts  
 
 ### **13. Inline Frames (`<iframe>`)**  
-- Embedding External Content using `<iframe>`  
-- Security Considerations with `sandbox` and `allow` Attributes  
+   - Embedding External Content using `<iframe>`  
+   - Security Considerations with `sandbox` and `allow` Attributes  
 
 ### **14. Accessibility (ARIA) & Semantic HTML**  
-- Importance of Semantic HTML in Accessibility  
-- Understanding ARIA Roles and Attributes:  
-  - `aria-label`, `aria-hidden`, `role`  
+   - Importance of Semantic HTML in Accessibility  
+   - Understanding ARIA Roles and Attributes:  
+     - `aria-label`, `aria-hidden`, `role`  
 
 ### **15. Canvas and SVG (Scalable Vector Graphics)**  
-- Drawing Graphics with `<canvas>`  
-- Using `<svg>` to Create Vector Images  
-- Basic Shapes and Paths with SVG  
+   - Drawing Graphics with `<canvas>`  
+   - Using `<svg>` to Create Vector Images  
+   - Basic Shapes and Paths with SVG  
 
 ### **16. HTML5 APIs**  
-- **Geolocation API**: Retrieving User Location  
-- **Web Storage API**:  
-  - Local Storage & Session Storage  
-- **Drag and Drop API**:  
-  - Enabling Drag-and-Drop Functionality  
-- **Web Workers**: Running Background Tasks  
+   - **Geolocation API**: Retrieving User Location  
+   - **Web Storage API**:  
+     - Local Storage & Session Storage  
+   - **Drag and Drop API**:  
+     - Enabling Drag-and-Drop Functionality  
+   - **Web Workers**: Running Background Tasks  
+
