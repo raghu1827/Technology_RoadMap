@@ -1,0 +1,280 @@
+
+### **1. Introduction to Java**  
+   - Java Virtual Machine (JVM)  
+   - Java Development Kit (JDK)  
+   - Java Runtime Environment (JRE)  
+
+### **2. Syntax & Structure**  
+   - Data Types & Variables  
+      - Primitive Types  
+      - Reference Types  
+
+   - Operators  
+     - Arithmetic Operators  
+     - Relational Operators  
+     - Logical Operators  
+     - Bitwise Operators  
+
+   - Control Flow Statements  
+     - if, else if, else  
+     - Ternary Operators  
+     - Switch Statements  
+     - for, while, do-while loops  
+     - For-Each / Enhanced For loop  
+     - break & continue  
+
+   - Math in Java  
+     - Basic Math Methods  
+         - round, ceil, floor, max, min, random, pow, sqrt etc  
+
+### **3. Basic I/O**  
+   - Reading and Writing Files  
+   - File Reader & File Writer  
+   - Buffered Reader & Buffered Writer  
+
+   - Console Input/Output  
+     - Scanner Class  
+     - Print Stream  
+
+### **4. Arrays in Java**  
+   - Introduction to Arrays  
+   - Array Declaration & Initialization  
+   - Accessing Array Elements  
+   - Array Traversal  
+   - Single-Dimensional Arrays  
+   - Multi-Dimensional Arrays  
+   - Jagged Arrays  
+
+### **5. String in Java**  
+   - String Basics  
+   - String Class Overview  
+   - String Immutability  
+   - String Pool (Interning)  
+
+   - String Operations  
+     - Concatenation  
+     - Substring  
+     - String Comparison  
+        - equals() and compareTo()  
+
+   - String Methods  
+     - length(), charAt(), indexOf(), etc.  
+
+   - StringBuilder & StringBuffer  
+     - Mutability & Performance Differences  
+     - Common String Methods  
+         - append()  
+         - insert()  
+         - delete()  
+         - reverse()  
+
+### **6. Object and Class**  
+   - Defining Classes & Objects  
+   - Constructors  
+        - Default Constructor  
+        - Parameterized Constructor  
+
+   - Methods  
+     - Method Signature (name, parameters, return type)  
+     - How to call Methods  
+     - Return Type  
+     - Instance Methods  
+     - static Methods  
+     - Command Line Arguments  
+
+   - Instance and Static Members  
+      - instance Member  
+      - static Member  
+      - static vs instance Members  
+      - When to use static Members  
+
+   - this Keyword  
+     - Refering to instance Members  
+     - Invoking current class Methods  
+     - Constructor Chaining  
+     - Returning current class Instance  
+
+### **7. Object-Oriented Programming (OOP)**  
+   - Inheritance  
+     - Extending classes  
+     - Inheritance Types  
+         - Single Inheritance  
+         - Multilevel Inheritance  
+         - Hierarchical Inheritance  
+         - Multiple Inheritance  
+         - Hybrid Inheritance  
+
+   - Method Overriding  
+     - @Override Rules  
+     - Using @Override Annotation  
+
+   - Super Keyword  
+     - Accessing Parent class and variables  
+     - Accessing Parent class Constructor with super()  
+
+   - Polymorphism  
+     - Compile-time Polymorphism  
+          - Method Overloading  
+     - Runtime Polymorphism  
+          - Method Overriding  
+     - Dynamic Method Dispatch  
+     - Polymorphism and Constructor  
+     - Type Casting  
+         - Upcasting  
+         - Downcasting  
+
+   - Encapsulation  
+     - Access Modifiers  
+         - Public  
+         - Private  
+         - Protected  
+         - Default  
+     - Getter & Setter Methods  
+     - Encapsulation Benefits  
+     - Has-A Relationships (composition)  
+          - Aggregation  
+          - Composition  
+     - Is-A Relationships (Inheritance)  
+
+   - Abstraction  
+     - Abstract Classes  
+     - Abstract Methods  
+     - Concrete Classes  
+
+   - Interfaces  
+     - Defining Interface  
+     - Implementing Interfaces  
+
+   - Coupling  
+      - Loose Coupling  
+      - Tight Coupling  
+
+### **8. Java Collections Framework**  
+   - Overview of Collections  
+   - Collection Types  
+          - List, Set, Map  
+   - Hashing  
+
+   - List Interface  
+         - ArrayList  
+         - LinkedList  
+
+   - Set Interface  
+        - HashSet  
+        - TreeSet  
+        - LinkedHashSet  
+
+   - Map Interface  
+          - HashMap  
+          - TreeMap  
+          - LinkedHashMap  
+
+   - Queue Interface  
+          - Priority Queue  
+          - LinkedList (Queue)  
+
+   - Sorting & Comparisons  
+     - Comparable Interface  
+         - Natural Ordering  
+         - compareTo() Method  
+
+     - Comparator Interface  
+         - Custom Sorting  
+         - compare() Method  
+
+     - Using comparator with Anonymous classes  
+     - Using comparator with Lambda  
+         - Method References  
+
+     - Comparator Enhancements in Java 8  
+          - comparing()  
+          - thenComparing()  
+          - reversed()  
+
+### **9. Exception Handling**  
+   - Java Exception Handling Basics  
+     - try, catch, finally block  
+     - Checked and Unchecked Exceptions  
+     - Final, finally, and finalize  
+     - Exception Hierarchy  
+
+   - throw and throws Keyword  
+   - Custom Exceptions  
+     - Custom Exception Handling  
+     - Creating Custom Exception Classes  
+     - Extending Exception classes  
+
+### **10. Concurrency in Java**  
+   - Introduction to Threads  
+   - Creating & Running Threads  
+     - Extending Thread Class  
+     - Implementing Runnable Interface  
+   - Thread Lifecycle  
+     - States of a Thread  
+   - Main Thread  
+   - Thread Priority  
+   - Naming and Fetching Name of Current Thread  
+   - Thread Methods  
+        - Thread.start()  
+        - Thread.run()  
+        - Thread.sleep()  
+   - Daemon Threads  
+
+   - Synchronization  
+     - Synchronized Keyword  
+     - Synchronized Methods & Blocks  
+     - Importance of Thread Synchronization  
+
+     - Locks  
+        - Reentrant Lock  
+
+     - Concurrency Utilities  
+         - Executor Framework  
+         - Thread Pooling  
+         - Callable and Future  
+         - Asynchronous Task Execution  
+
+     - Concurrent Collections  
+        - Concurrent HashMap  
+        - CopyOnWriteArrayList  
+
+### **11. Java 8 Features**  
+   - Lambda Expressions  
+      - Syntax and Usage  
+      - Functional Interface  
+      - Scope and Variable  
+      - Lambda Expressions Parameters  
+
+   - Streams API  
+      - Stream creation  
+      - Form collections  
+      - Form Arrays  
+
+   - Intermediate and Terminal Operations  
+      - Filtering, Mapping, Reducing  
+
+   - Collectors  
+      - Collecting to Lists, Sets, Maps  
+
+   - Functional Interfaces  
+      - Predicate  
+      - Function  
+      - Supplier  
+      - Consumer  
+      - BiPredicate, BiConsumer, BiFunction  
+
+   - Optional Class  
+      - Usage and Benefits  
+      - Avoiding NullPointerExceptions  
+      - Common Methods  
+         - isPresent()  
+         - ifPresent()  
+         - orElse()  
+
+   - Date and Time API  
+      - LocalDate, LocalTime, LocalDateTime  
+      - Creating and Manipulating Dates  
+      - ZonedDateTime  
+      - Time Zones  
+      - Duration and Period  
+      - Measuring Time  
