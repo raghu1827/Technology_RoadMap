@@ -53,46 +53,56 @@
 
    - String Operations  
      - Concatenation  
-     - Substring  
+     - Substring (`substring(start, end)`)  
      - String Comparison  
-        - equals() and compareTo()  
+        - `equals()`, `compareTo()`, `equalsIgnoreCase()`  
 
    - String Methods  
-     - length(), charAt(), indexOf(), etc.  
+     - `length()`, `charAt(index)`, `indexOf(char)`, `contains(str)`  
+     - `toUpperCase()`, `toLowerCase()`, `trim()`  
+     - `replace(oldChar, newChar)`, `split(regex)`  
 
    - StringBuilder & StringBuffer  
      - Mutability & Performance Differences  
      - Common String Methods  
-         - append()  
-         - insert()  
-         - delete()  
-         - reverse()  
+         - `append()`  
+         - `insert()`  
+         - `delete()`  
+         - `reverse()`  
 
 ### **6. Object and Class**  
-   - Defining Classes & Objects  
-   - Constructors  
-        - Default Constructor  
-        - Parameterized Constructor  
 
-   - Methods  
+   - **Defining Classes & Objects**  
+
+   - **Constructors**  
+     - Default Constructor  
+     - Parameterized Constructor  
+     - Overloaded Constructors  
+     - Copy Constructor (if applicable)  
+
+   - **Methods**  
      - Method Signature (name, parameters, return type)  
-     - How to call Methods  
+     - How to Call Methods  
      - Return Type  
+     - Method Overloading  
      - Instance Methods  
-     - static Methods  
+     - Static Methods  
+     - Access Modifiers (public, private, protected)  
      - Command Line Arguments  
 
-   - Instance and Static Members  
-      - instance Member  
-      - static Member  
-      - static vs instance Members  
-      - When to use static Members  
+   - **Instance and Static Members**  
+     - Instance Member  
+     - Static Member  
+     - Static Blocks  
+     - Static vs Instance Members  
+     - When to Use Static Members  
 
-   - this Keyword  
-     - Refering to instance Members  
-     - Invoking current class Methods  
+   - **this Keyword**  
+     - Referring to Instance Members  
+     - Invoking Current Class Methods  
      - Constructor Chaining  
-     - Returning current class Instance  
+     - Returning Current Class Instance  
+     - Difference Between `this` and `super`
 
 ### **7. Object-Oriented Programming (OOP)**  
    - Inheritance  
