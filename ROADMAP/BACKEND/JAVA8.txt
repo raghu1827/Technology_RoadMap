@@ -16,8 +16,10 @@
 - **Source File Name**
   - Class Names
   - Method Names
-  - Identifiers in Java
   - Java Keywords
+- **Identifiers in Java**
+  - Rules for Naming Java Identifiers
+  
 
 - **Access Modifiers in Java**
   - Default
