@@ -17,16 +17,13 @@
   - Class Names
   - Method Names
   - Identifiers in Java
+  - Java Keywords
 
 - **Access Modifiers in Java**
   - Default
   - Private
   - Protected
   - Public
-
-- **Java Keywords**
-- **Java Identifiers**
-  - Rules for Naming Java Identifiers
 
 
 ### **3. Java Data Types**
