@@ -40,7 +40,6 @@
   - `valueOf()`
   - `parseInt()`, `parseDouble()`
   - `toString()`
-- **Use Cases & Performance Considerations**
 
 
 ### **4. Java Variables**
