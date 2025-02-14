@@ -51,10 +51,9 @@
   - Static Variables
 
 - **Scope of Variables**
-  - Instance Variables
-  - Static Variables
-  - Local Variables
-  - Parameter Scope
+  - Instance Scope
+  - Static Scope
+  - Local Scope
   - Block Scope
 
 
