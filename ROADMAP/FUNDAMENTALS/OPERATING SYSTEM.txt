@@ -1,0 +1,42 @@
+
+#### **1. Introduction to OS**  
+   - What is an Operating System?  
+   - Types of Operating Systems  
+
+#### **2. Process Management**  
+   - Process vs Threads vs Programs  
+   - Multiprogramming vs Multiprocessing vs Multitasking vs Multithreading  
+   - Process States & Life Cycle  
+
+#### **3. CPU Scheduling**  
+   - CPU Scheduling Algorithms (FCFS, SJF, Round Robin, etc.)  
+
+#### **4. Process Synchronization**  
+   - Critical Section Problem  
+   - Process Synchronization  
+   - Synchronization Mechanisms (Semaphores, Mutex, etc.)  
+
+#### **5. Deadlock Management**  
+   - Deadlock Concept  
+   - Deadlock Handling Techniques  
+     - Prevention  
+     - Avoidance  
+     - Detection  
+     - Recovery  
+
+#### **6. Memory Management**  
+   - Basics of Memory Management  
+   - First-fit, Best-fit, Worst-fit Algorithms  
+   - Paging & Virtual Memory  
+   - Page Replacement Algorithms  
+     - FIFO  
+     - LRU  
+   - Thrashing  
+   - Segmentation  
+
+#### **7. Disk Management**  
+   - Disk Management Basics  
+   - Disk Scheduling Algorithms  
+     - FCFS  
+     - SSTF  
+     - SCAN  
